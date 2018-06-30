@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/city_lights.jpg");
+    /* background: #183b64; */
+    /* background: -webkit-linear-gradient(to right, #183b64, #758eaa); */
+    /*Chrome 10-25, Safari 5.1-6*/
+    /* background: linear-gradient(to right, #183b64, #758eaa); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+    color: whitesmoke;
+    font-family: 'Julius Sans One', cursive;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  font-family:  'Oswald', sans-serif;
+}
