@@ -7,6 +7,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
     color: whitesmoke;
     font-family: 'Julius Sans One', cursive;
+    background-size:100% 100%;
 }
 
 h1 {

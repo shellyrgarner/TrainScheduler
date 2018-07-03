@@ -87,7 +87,7 @@ database.ref().on("child_added", function (childSnapshot, prevChildKey) {
     console.log(minsTilNextTrain);
 
     //calculations
-    var firstTrainConvert = moment(trainTime, "hh:mm");
+    var firstTrainConvert = moment(trainTime, "hh:mm").format("hh:mm a");
     console.log("firsttrainconvert:" + firstTrainConvert);
 
     var timeDiff = moment().diff(moment(firstTrainConvert), "minutes");
